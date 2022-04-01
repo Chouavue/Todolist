@@ -1,0 +1,59 @@
+body {
+    background-color: #f4eeed;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    background-color:#999b84;
+}
+
+button{
+    background-color: #ddb7ab;
+    margin-left: 10px;
+    border-radius: 7px;
+    border-color: #ddb7ab;
+    font-family: 'Shadows Into Light', cursive;   
+    width: 80px;
+    
+}
+
+ul {
+    list-style:circle;
+}
+
+.listcontainer{
+    background-color: #ddb7ab;
+
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: e;
+}
+
+li {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: large;
+    padding: 5px;
+}
